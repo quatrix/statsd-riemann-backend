@@ -92,7 +92,8 @@ that the event tags would be `["apiServer", "findUser", "response", "statusCode"
     "transport": "tcp",
     "tags": ["statsd"],
     "parseNamespace": true,
-    "tagWithEventParts": true
+    "tagWithEventParts": true,
+    "reconnectInterval": 1000
   }
 }
 ```
